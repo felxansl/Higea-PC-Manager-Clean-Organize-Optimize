@@ -34,8 +34,8 @@
 ## 🚀 Installation & Usage
 
 1. Head over to the **Releases** section of this repository.
-2. Download the executable file from the latest release.
-3. Run `Higea.exe` (Running as Administrator is highly recommended so the utility has the proper permissions to clear system directories and apply power plans).
+2. Download portable_higea.zip from the latest release and extract its contents into a folder of your choice.
+3. Run `higea.exe` by simply double-clicking it. (Running as Administrator is highly recommended so the utility has the proper permissions to clear system directories and apply power plans).
 
 ---
 
