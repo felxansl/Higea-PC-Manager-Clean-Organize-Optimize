@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+
+  <!-- Sidebar -->
+  <data name="AppSubtitle"><value>PC Manager</value></data>
+  <data name="NavTools"><value>TOOLS</value></data>
+  <data name="NavOrganizer"><value>  Organizer</value></data>
+  <data name="NavCleaner"><value>  Cleaner</value></data>
+  <data name="NavGaming"><value>  Gaming</value></data>
+
+  <!-- Activity Log panel -->
+  <data name="LogTitle"><value>Activity</value></data>
+  <data name="LogSubtitle"><value>Timeline of actions and errors</value></data>
+  <data name="LogClear"><value>Clear</value></data>
+
+  <!-- Organizer panel -->
+  <data name="OrgTitle"><value>File Organizer</value></data>
+  <data name="OrgSubtitle"><value>Automatically sort files by type and destination</value></data>
+  <data name="OrgTargetFolder"><value>TARGET FOLDER</value></data>
+  <data name="OrgNoFolder"><value>No folder selected</value></data>
+  <data name="OrgBrowse"><value>Browse</value></data>
+  <data name="OrgStatMoved"><value>MOVED</value></data>
+  <data name="OrgStatSkipped"><value>SKIPPED</value></data>
+  <data name="OrgStatStatus"><value>STATUS</value></data>
+  <data name="OrgActions"><value>ACTIONS</value></data>
+  <data name="OrgBtnFolder"><value>▶  Organize Selected Folder</value></data>
+  <data name="OrgBtnPC"><value>🖥️  Organize Entire PC</value></data>
+  <data name="OrgOrganizing"><value>⏳  Organizing...</value></data>
+  <data name="OrgDefaultStatus"><value>Select a folder or use 'Organize Entire PC'.</value></data>
+  <data name="OrgDoneNone"><value>✅ No files needed organizing.</value></data>
+  <data name="OrgDone"><value>✅ Done! {0} file(s) organized.</value></data>
+  <data name="OrgError"><value>❌ An error occurred.</value></data>
+  <data name="OrgStartFolder"><value>Organizing: {0}...</value></data>
+  <data name="OrgStartPC"><value>Organizing entire PC...</value></data>
+  <data name="OrgConfirmPC"><value>The following folders will be organized automatically:&#x0a;• Desktop&#x0a;• Downloads&#x0a;• Documents&#x0a;• Pictures&#x0a;• Videos&#x0a;• Music&#x0a;&#x0a;Continue?</value></data>
+  <data name="OrgConfirmPCTitle"><value>Organize Entire PC</value></data>
+
+  <!-- Cleaner panel -->
+  <data name="ClnTitle"><value>System Cleaner</value></data>
+  <data name="ClnSubtitle"><value>Remove temp files and empty the recycle bin</value></data>
+  <data name="ClnWhatToClean"><value>WHAT TO CLEAN</value></data>
+  <data name="ClnTempFiles"><value>🗑️  Windows temp files  (%TEMP%, C:\Windows\Temp)</value></data>
+  <data name="ClnRecycleBin"><value>♻️  Empty Recycle Bin</value></data>
+  <data name="ClnStatStatus"><value>STATUS</value></data>
+  <data name="ClnAction"><value>ACTION</value></data>
+  <data name="ClnBtnClean"><value>🧹  Clean Now</value></data>
+  <data name="ClnCleaning"><value>⏳  Cleaning...</value></data>
+  <data name="ClnDefaultStatus"><value>Select what to clean and press the button.</value></data>
+  <data name="ClnDone"><value>✅ Cleanup complete. {0} item(s) deleted.</value></data>
+  <data name="ClnError"><value>❌ An error occurred during cleanup.</value></data>
+  <data name="ClnConfirm"><value>Are you sure you want to delete the selected files?&#x0a;This action cannot be undone.</value></data>
+  <data name="ClnConfirmTitle"><value>Confirm Cleanup</value></data>
+  <data name="ClnRecycleDone"><value>🗑️ Recycle bin emptied successfully.</value></data>
+  <data name="ClnRecycleError"><value>❌ Error emptying recycle bin: {0}</value></data>
+  <data name="ClnNoFiles"><value>✅ No temporary files to clean.</value></data>
+  <data name="ClnNoPermission"><value>⚠️ No permission for: {0} (run as administrator)</value></data>
+  <data name="ClnReadError"><value>❌ Error reading {0}: {1}</value></data>
+  <data name="ClnFolderDeleted"><value>📁 Folder deleted: {0}</value></data>
+  <data name="ClnFileDeleted"><value>🗑️ Deleted: {0}</value></data>
+  <data name="ClnNoPermissionPath"><value>⚠️ No permission in: {0}</value></data>
+
+  <!-- Gaming panel -->
+  <data name="GamTitle"><value>Gaming Optimizer</value></data>
+  <data name="GamSubtitle"><value>Clear cache, free RAM and maximize performance</value></data>
+  <data name="GamStatDeleted"><value>DELETED</value></data>
+  <data name="GamStatFreed"><value>FREED</value></data>
+  <data name="GamStatStatus"><value>STATUS</value></data>
+  <data name="GamCleanup"><value>CLEANUP</value></data>
+  <data name="GamNvidiaCache"><value>NVIDIA Cache  (DX · GL · Optix)</value></data>
+  <data name="GamPrefetch"><value>Windows Prefetch</value></data>
+  <data name="GamFreeRam"><value>Free RAM  (Working Set)</value></data>
+  <data name="GamPerformance"><value>PERFORMANCE</value></data>
+  <data name="GamHighPerf"><value>High Performance power plan</value></data>
+  <data name="GamFlushDns"><value>Flush DNS cache</value></data>
+  <data name="GamAction"><value>ACTION</value></data>
+  <data name="GamBtnOptimize"><value>🎮  Optimize for Gaming</value></data>
+  <data name="GamOptimizing"><value>⏳  Optimizing...</value></data>
+  <data name="GamDefaultStatus"><value>Select options and press Optimize.</value></data>
+  <data name="GamDone"><value>✅ Optimization complete. {0} files deleted, {1} freed.</value></data>
+  <data name="GamError"><value>❌ An error occurred.</value></data>
+  <data name="GamStarting"><value>Optimizing for gaming...</value></data>
+  <data name="GamCleaningNvidia"><value>Clearing NVIDIA cache...</value></data>
+  <data name="GamCleaningPrefetch"><value>Clearing Prefetch...</value></data>
+  <data name="GamFreeingRam"><value>Freeing RAM...</value></data>
+  <data name="GamApplyingPower"><value>Applying power plan...</value></data>
+  <data name="GamFlushingDns"><value>Flushing DNS cache...</value></data>
+  <data name="GamRamFreed"><value>🧠 RAM freed: ~{0} MB</value></data>
+  <data name="GamNoPermission"><value>⚠️ No permission for: {0}\ (run as administrator)</value></data>
+  <data name="GamCacheCleared"><value>🗑️ Cache cleared: {0}\</value></data>
+  <data name="GamCacheReadError"><value>❌ Error reading {0}: {1}</value></data>
+  <data name="GamHighPerfOn"><value>⚡ Power plan: High Performance activated</value></data>
+  <data name="GamUltimatePerfOn"><value>⚡ Power plan: Ultimate Performance activated</value></data>
+  <data name="GamPowerFail"><value>⚠️ Could not change power plan (requires admin)</value></data>
+  <data name="GamPowerError"><value>❌ Error changing power plan: {0}</value></data>
+  <data name="GamDnsDone"><value>🌐 DNS cache flushed successfully</value></data>
+  <data name="GamDnsError"><value>❌ Error flushing DNS: {0}</value></data>
+
+  <!-- TitleBar labels -->
+  <data name="TitleOrganizer"><value>Organize</value></data>
+  <data name="TitleCleaner"><value>System Cleaner</value></data>
+  <data name="TitleGaming"><value>Gaming Optimizer</value></data>
+</root>

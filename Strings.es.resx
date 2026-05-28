@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+
+  <!-- Sidebar -->
+  <data name="AppSubtitle"><value>Gestor de PC</value></data>
+  <data name="NavTools"><value>HERRAMIENTAS</value></data>
+  <data name="NavOrganizer"><value>  Organizador</value></data>
+  <data name="NavCleaner"><value>  Limpiador</value></data>
+  <data name="NavGaming"><value>  Gaming</value></data>
+
+  <!-- Activity Log panel -->
+  <data name="LogTitle"><value>Actividad</value></data>
+  <data name="LogSubtitle"><value>Historial de acciones y errores</value></data>
+  <data name="LogClear"><value>Limpiar</value></data>
+
+  <!-- Organizer panel -->
+  <data name="OrgTitle"><value>Organizador de Archivos</value></data>
+  <data name="OrgSubtitle"><value>Ordena automáticamente los archivos por tipo y destino</value></data>
+  <data name="OrgTargetFolder"><value>CARPETA DESTINO</value></data>
+  <data name="OrgNoFolder"><value>Ninguna carpeta seleccionada</value></data>
+  <data name="OrgBrowse"><value>Explorar</value></data>
+  <data name="OrgStatMoved"><value>MOVIDOS</value></data>
+  <data name="OrgStatSkipped"><value>OMITIDOS</value></data>
+  <data name="OrgStatStatus"><value>ESTADO</value></data>
+  <data name="OrgActions"><value>ACCIONES</value></data>
+  <data name="OrgBtnFolder"><value>▶  Organizar Carpeta Seleccionada</value></data>
+  <data name="OrgBtnPC"><value>🖥️  Organizar PC Completo</value></data>
+  <data name="OrgOrganizing"><value>⏳  Organizando...</value></data>
+  <data name="OrgDefaultStatus"><value>Selecciona una carpeta o usa 'Organizar PC Completo'.</value></data>
+  <data name="OrgDoneNone"><value>✅ No había archivos para organizar.</value></data>
+  <data name="OrgDone"><value>✅ ¡Listo! {0} archivo(s) organizados.</value></data>
+  <data name="OrgError"><value>❌ Ocurrió un error.</value></data>
+  <data name="OrgStartFolder"><value>Organizando: {0}...</value></data>
+  <data name="OrgStartPC"><value>Organizando PC completo...</value></data>
+  <data name="OrgConfirmPC"><value>Se organizarán automáticamente:&#x0a;• Escritorio&#x0a;• Descargas&#x0a;• Documentos&#x0a;• Imágenes&#x0a;• Vídeos&#x0a;• Música&#x0a;&#x0a;¿Continuar?</value></data>
+  <data name="OrgConfirmPCTitle"><value>Organizar PC completo</value></data>
+
+  <!-- Cleaner panel -->
+  <data name="ClnTitle"><value>Limpiador de Sistema</value></data>
+  <data name="ClnSubtitle"><value>Elimina archivos temporales y vacía la papelera</value></data>
+  <data name="ClnWhatToClean"><value>QUÉ LIMPIAR</value></data>
+  <data name="ClnTempFiles"><value>🗑️  Archivos temporales de Windows  (%TEMP%, C:\Windows\Temp)</value></data>
+  <data name="ClnRecycleBin"><value>♻️  Vaciar Papelera de Reciclaje</value></data>
+  <data name="ClnStatStatus"><value>ESTADO</value></data>
+  <data name="ClnAction"><value>ACCIÓN</value></data>
+  <data name="ClnBtnClean"><value>🧹  Limpiar Ahora</value></data>
+  <data name="ClnCleaning"><value>⏳  Limpiando...</value></data>
+  <data name="ClnDefaultStatus"><value>Selecciona qué deseas limpiar y pulsa el botón.</value></data>
+  <data name="ClnDone"><value>✅ Limpieza completada. {0} elemento(s) eliminados.</value></data>
+  <data name="ClnError"><value>❌ Ocurrió un error durante la limpieza.</value></data>
+  <data name="ClnConfirm"><value>¿Estás seguro de que deseas eliminar los archivos seleccionados?&#x0a;Esta acción no se puede deshacer.</value></data>
+  <data name="ClnConfirmTitle"><value>Confirmar limpieza</value></data>
+  <data name="ClnRecycleDone"><value>🗑️ Papelera vaciada correctamente.</value></data>
+  <data name="ClnRecycleError"><value>❌ Error al vaciar papelera: {0}</value></data>
+  <data name="ClnNoFiles"><value>✅ No había archivos temporales que limpiar.</value></data>
+  <data name="ClnNoPermission"><value>⚠️ Sin permisos para acceder a: {0}\ (ejecuta como administrador)</value></data>
+  <data name="ClnReadError"><value>❌ Error al leer {0}: {1}</value></data>
+  <data name="ClnFolderDeleted"><value>📁 Carpeta eliminada: {0}</value></data>
+  <data name="ClnFileDeleted"><value>🗑️ Eliminado: {0}</value></data>
+  <data name="ClnNoPermissionPath"><value>⚠️ Sin permisos en: {0}</value></data>
+
+  <!-- Gaming panel -->
+  <data name="GamTitle"><value>Optimizador Gaming</value></data>
+  <data name="GamSubtitle"><value>Limpia caché, libera RAM y maximiza el rendimiento</value></data>
+  <data name="GamStatDeleted"><value>ELIMINADOS</value></data>
+  <data name="GamStatFreed"><value>LIBERADOS</value></data>
+  <data name="GamStatStatus"><value>ESTADO</value></data>
+  <data name="GamCleanup"><value>LIMPIEZA</value></data>
+  <data name="GamNvidiaCache"><value>Caché NVIDIA  (DX · GL · Optix)</value></data>
+  <data name="GamPrefetch"><value>Prefetch de Windows</value></data>
+  <data name="GamFreeRam"><value>Liberar RAM  (Working Set)</value></data>
+  <data name="GamPerformance"><value>RENDIMIENTO</value></data>
+  <data name="GamHighPerf"><value>Plan de energía Alto Rendimiento</value></data>
+  <data name="GamFlushDns"><value>Limpiar caché DNS</value></data>
+  <data name="GamAction"><value>ACCIÓN</value></data>
+  <data name="GamBtnOptimize"><value>🎮  Optimizar para Gaming</value></data>
+  <data name="GamOptimizing"><value>⏳  Optimizando...</value></data>
+  <data name="GamDefaultStatus"><value>Selecciona las opciones y pulsa Optimizar.</value></data>
+  <data name="GamDone"><value>✅ Optimización completa. {0} archivos eliminados, {1} liberados.</value></data>
+  <data name="GamError"><value>❌ Ocurrió un error.</value></data>
+  <data name="GamStarting"><value>Optimizando para gaming...</value></data>
+  <data name="GamCleaningNvidia"><value>Limpiando caché NVIDIA...</value></data>
+  <data name="GamCleaningPrefetch"><value>Limpiando Prefetch...</value></data>
+  <data name="GamFreeingRam"><value>Liberando RAM...</value></data>
+  <data name="GamApplyingPower"><value>Aplicando plan de energía...</value></data>
+  <data name="GamFlushingDns"><value>Limpiando caché DNS...</value></data>
+  <data name="GamRamFreed"><value>🧠 RAM liberada: ~{0} MB</value></data>
+  <data name="GamNoPermission"><value>⚠️ Sin permisos para acceder a: {0}\ (ejecuta como administrador)</value></data>
+  <data name="GamCacheCleared"><value>🗑️ Caché limpiada: {0}\</value></data>
+  <data name="GamCacheReadError"><value>❌ Error al leer {0}: {1}</value></data>
+  <data name="GamHighPerfOn"><value>⚡ Plan de energía: Alto Rendimiento activado</value></data>
+  <data name="GamUltimatePerfOn"><value>⚡ Plan de energía: Máximo Rendimiento activado</value></data>
+  <data name="GamPowerFail"><value>⚠️ No se pudo cambiar el plan de energía (requiere admin)</value></data>
+  <data name="GamPowerError"><value>❌ Error al cambiar plan de energía: {0}</value></data>
+  <data name="GamDnsDone"><value>🌐 Caché DNS limpiada correctamente</value></data>
+  <data name="GamDnsError"><value>❌ Error al limpiar DNS: {0}</value></data>
+
+  <!-- TitleBar labels -->
+  <data name="TitleOrganizer"><value>Organiza</value></data>
+  <data name="TitleCleaner"><value>Limpiador de Sistema</value></data>
+  <data name="TitleGaming"><value>Optimizador Gaming</value></data>
+</root>
