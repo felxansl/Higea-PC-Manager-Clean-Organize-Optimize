@@ -1,4 +1,5 @@
 # Higea - PC Manager
+<img width="1052" height="673" alt="image" src="https://github.com/user-attachments/assets/3ae0216d-206a-4258-9235-10d6467a0341" />
 
 🛡️ **Open Source Windows Optimization Tool**
 
